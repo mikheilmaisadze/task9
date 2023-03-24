@@ -1,0 +1,157 @@
+@font-face {
+    font-family:"monster" ;
+    src: url( ../fonts/monster.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "monster";
+}
+
+body {
+background-image: url('cover.png');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+overflow: hidden;
+}
+
+form {
+    width: 328px;
+    height: 619px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 45.5px;
+}
+
+h3 {
+    width: 244px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin: 0px;
+    margin-bottom: 40px;
+}
+
+input {
+    width: 245px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #F9F9F9;
+    padding-left: 21px;
+    margin: 12px 0px 12px 0px;
+    border: 1px solid #BDBDBD;
+    outline: none;
+}
+
+label {
+width: 50px;
+height: 24px;
+font-size: 14px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+}
+
+.input-1 {
+width: 245px;
+height: 50px;
+border-radius: 5px;
+background-color: #F9F9F9;
+padding-left: 21px;
+appearance: none;
+background-image: url('Vector.png');
+background-repeat: no-repeat;
+background-position:right 20px top 50%;
+}
+
+.first-label {
+    margin-top: 40px;
+}
+
+button {
+    margin-top: 30px;
+width: 248px;
+height: 58px;
+border-radius: 5px;
+padding: 15px 40px;
+background-color: #FFA62B;
+color: #FFFFFF;
+border: none; 
+}
+
+h1 {
+    width: 693px;
+    height: 240px;
+font-size: 58px;
+font-weight: 800;
+line-height: 80px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #252B42;
+margin: 0px;
+}
+
+h4 {
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #737373;
+margin-top:calc(8.4px + 26.6px);
+}
+
+.button1 {
+width: 185px;
+height: 48px;
+border-radius: 37px;
+padding: 10px 0px 10px 0px;
+background-color: #00A0C1;
+display: inline-block;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #FFFFFF;
+background-color: #00A0C1;
+margin-top: 35px;
+}
+
+.button2 {
+width: 154px;
+height: 48px;
+border-radius: 37px;
+padding: 10px;
+border: 1px solid hsl(190, 100%, 38%);
+background-color: hsla(100, 1%, 1%, 0);
+margin-left: 10px;
+margin-top: 35px;
+}
+
+span {
+font-size: 14px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #00A0C1;
+}
+
+.container {
+width: 1048px;
+margin-inline: auto;
+display: flex;
+justify-content: space-between;
+margin-top: 132px;
+}
+
+.test {
+    margin-top: calc(232.5px - 132px);
+}
